@@ -21,7 +21,7 @@ spec:
         - name: backend-java
           # TODO ejercicio 5:
           # Sustituir por la imagen construida para la app Java.
-          image: backend-java
+          image: openjdk:17
           ports:
             - containerPort: 8080
           # TODO ejercicio 5:
